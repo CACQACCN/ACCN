@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "CAC"
+  },
+  "text": {
+    "more": "Le graphe représente les acteurs du réseau — ENSA, laboratoires, enseignants-chercheurs et axes de travail — ainsi que les relations qui les structurent\nRouge \u003d Membre\nViolet \u003d ENSA-P\nVert \u003d Labo\nBleu \u003d Champ\nJaune \u003d Axe\n",
+    "intro": "Le graphe représente les acteurs du réseau — ENSA, laboratoires, enseignants-chercheurs et axes de travail — ainsi que les relations qui les structurent",
+    "title": "Réseau ACCN"
+  },
+  "legend": {
+    "edgeLabel": "Relation",
+    "colorLabel": "Type",
+    "nodeLabel": "ENSA, Labo, Champ, Axes"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "type",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
